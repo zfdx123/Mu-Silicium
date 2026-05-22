@@ -30,12 +30,7 @@
 
   # If your SoC has multimple variants define the Number here
   # If not don't add this Define
-  SOC_TYPE                       = 0 # 占位
-
-# If your SoC has multiple variants keep these Build Options
-# If not don't add "-DSOC_TYPE=$(SOC_TYPE)" to the Build Options.
-[BuildOptions]
-  *_*_*_CC_FLAGS = -DSOC_TYPE=$(SOC_TYPE) -DHAS_BUILD_IN_KEYBOARD=$(HAS_BUILD_IN_KEYBOARD)
+  SOC_TYPE                       = 0
 
 [LibraryClasses]
   MemoryMapLib|zornPkg/Library/MemoryMapLib/MemoryMapLib.inf
@@ -45,9 +40,6 @@
   # DDR Start Address
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x816E0000
   gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x80080246
-
-  # CPU Vector Address
-  #gArmTokenSpaceGuid.PcdCpuVectorBaseAddress|0xA7600000
 
   # UEFI Stack Addresses
   gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0xA760D000
