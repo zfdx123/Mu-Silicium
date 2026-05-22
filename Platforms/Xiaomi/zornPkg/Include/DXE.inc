@@ -122,7 +122,6 @@
   INF Binaries/zorn/QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.inf
   INF Binaries/zorn/QcomPkg/Drivers/SecRSADxe/SecRSADxe.inf
   INF Binaries/zorn/QcomPkg/Drivers/VerifiedBootDxe/VerifiedBootDxe.inf
-  INF zornPkg/Drivers/VbStateProbeDxe/VbStateProbeDxe.inf
   INF Binaries/zorn/QcomPkg/Drivers/RmVmDxe/RmVmDxe.inf
   INF Binaries/zorn/QcomPkg/Drivers/ParserDxe/ParserEnhancedDxe.inf
   INF Binaries/zorn/QcomPkg/Drivers/SerialPortDxe/SerialPortDxe.inf

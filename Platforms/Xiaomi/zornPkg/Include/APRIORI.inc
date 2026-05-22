@@ -123,7 +123,6 @@ APRIORI DXE {
   INF Binaries/zorn/QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.inf
   INF Binaries/zorn/QcomPkg/Drivers/SecRSADxe/SecRSADxe.inf
   INF Binaries/zorn/QcomPkg/Drivers/VerifiedBootDxe/VerifiedBootDxe.inf
-  INF zornPkg/Drivers/VbStateProbeDxe/VbStateProbeDxe.inf
 
 !if $(USE_CUSTOM_DISPLAY_DRIVER) == 1
   INF Binaries/zorn/QcomPkg/Drivers/RscDxe/RscDxe.inf
