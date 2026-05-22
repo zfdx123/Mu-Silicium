@@ -57,8 +57,6 @@
   INF Binaries/zorn/QcomPkg/Drivers/ICBDxe/ICBDxe.inf
   INF Binaries/zorn/QcomPkg/Drivers/SmemDxe/SmemDxe.inf
 
-  INF QcomPkg/Drivers/DynamicRamDxe/DynamicRamDxe.inf
-
   INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
 
 !if $(USE_CUSTOM_DISPLAY_DRIVER) == 1
