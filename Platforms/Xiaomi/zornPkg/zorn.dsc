@@ -61,9 +61,6 @@
   gQcomPkgTokenSpaceGuid.PcdPlatformType|"LA"
   gQcomPkgTokenSpaceGuid.PcdDtbExtensionAddr|0xA703F0E8
 
-  # Dynamic RAM Start Address
-  gSiliciumPkgTokenSpaceGuid.PcdRamPartitionBase|0xFEF00000
-
   # SD Card Slot
   gQcomPkgTokenSpaceGuid.PcdInitCardSlot|FALSE            # If your Phone has no SD Card Slot, Set it to FALSE.
 
